@@ -178,15 +178,19 @@ body {
   margin-bottom: 5%;
 }
 .box-section .box-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 25%;
   background-color: white;
-  padding: 16px;
+  padding: 2px 14px;
   border-radius: 16px;
 }
 .box-section .box-one p {
   color: #022d33;
   font-weight: 700;
-  margin-bottom: 20%;
+  /* margin-bottom: 20%; */
 }
 .box-section .box-one .contact-us {
   /* margin-top: 20%; */
@@ -229,14 +233,13 @@ body {
 .box-section .box-two .man-members .man-box {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   gap: 10px;
 }
 .box-section .box-two .man-members .man-box h2 {
   color: #022d33;
   font-size: 2rem;
   font-weight: 800;
-  margin-top: 7px;
 }
 .box-section .box-two .man-members .man-box img {
   width: 70px;
@@ -246,14 +249,13 @@ body {
 .box-section .box-two .man-members .member-box {
   display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   gap: 10px;
 }
 .box-section .box-two .man-members .member-box h2 {
   font-size: 0.9rem;
   font-weight: 800;
   color: #022d33;
-  margin-top: 10%;
 }
 .box-section .box-two .man-members .member-box .fa-user {
   background-color: #022d33;
@@ -262,3 +264,26 @@ body {
   border-radius: 10px;
 }
 /* Box Section End */
+
+/* Sponsor Section Start */
+.sponson-sec {
+  margin-bottom: 10%;
+}
+.sponson-sec .sponsor-logo-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.sponson-sec p {
+  text-align: center;
+  color: #022d33;
+  margin-bottom: 5%;
+  font-weight: 600;
+}
+.sponson-sec .sponsor-logo-box .sponsor-logo img {
+  width: 130px;
+  height: auto;
+}
+/* Sponsor Section End */
