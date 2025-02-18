@@ -14,44 +14,62 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header>
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="nav-container">
-          <!-- Logo -->
-          <div class="logo">
-            <i class="fa-brands fa-gg-circle"></i>
-            <span>Qanci</span>
-          </div>
+    <main>
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="nav-container">
+            <!-- Logo -->
+            <div class="logo">
+              <i class="fa-brands fa-gg-circle"></i>
+              <span>Qanci</span>
+            </div>
 
-          <!-- Desktop Menu -->
-          <ul class="nav-links">
-            <li><a href="#" class="active">Home</a></li>
+            <!-- Desktop Menu -->
+            <ul class="nav-links">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+
+            <!-- Chat Button -->
+            <a href="#" class="chat-btn">Let's chat •</a>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="hamburger">☰ Menu</button>
+          </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+          <button id="close-btn" class="close-btn">✖ CLOSE</button>
+          <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#">Works</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Services</a></li>
           </ul>
-
-          <!-- Chat Button -->
           <a href="#" class="chat-btn">Let's chat •</a>
-
-          <!-- Mobile Menu Button -->
-          <button id="menu-btn" class="hamburger">☰ Menu</button>
         </div>
-      </nav>
+      </header>
 
-      <!-- Mobile Menu -->
-      <div id="mobile-menu" class="mobile-menu">
-        <button id="close-btn" class="close-btn">✖ CLOSE</button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Services</a></li>
-        </ul>
-        <a href="#" class="chat-btn">Let's chat •</a>
-      </div>
-    </header>
+      <!-- Home Section Start -->
+      <section>
+        <div class="home-section">
+          <div>
+            <h1 class="title">
+              Development <br />
+              <span>&lt;/&gt;</span> Agency
+            </h1>
+          </div>
+          <div class="home-img">
+            <img src="./assets/home-img.png" alt="" srcset="" />
+          </div>
+        </div>
+      </section>
+      <!-- Home Section Start -->
+    </main>
 
     <script src="./js/index.js"></script>
   </body>

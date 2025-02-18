@@ -8,9 +8,11 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
-/* Navbar */
+/* Navbar Start */
 .navbar {
   /* background: white; */
   padding: 15px 20px;
@@ -26,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1100px;
+  /* max-width: 1100px; */
   margin: auto;
 }
 
@@ -40,13 +42,16 @@ body {
   cursor: pointer;
 }
 .fa-gg-circle {
+  size: 25px;
   color: #022d33;
 }
 .logo img {
   width: 28px;
   margin-right: 8px;
 }
-
+.logo span {
+  font-size: 25px;
+}
 .nav-links {
   display: flex;
   list-style: none;
@@ -144,3 +149,23 @@ body {
     display: block;
   }
 } */
+
+/* Navbar End */
+
+/* Home Section Start */
+.home-section {
+  margin-top: 8%;
+}
+.home-section .home-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.title {
+  font-size: 3rem;
+  color: #022d33;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Home Section End */
