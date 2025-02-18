@@ -169,3 +169,96 @@ body {
   margin-bottom: 20px;
 }
 /* Home Section End */
+
+/* Box Section Start */
+.box-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+.box-section .box-one {
+  width: 25%;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+}
+.box-section .box-one p {
+  color: #022d33;
+  font-weight: 700;
+  margin-bottom: 20%;
+}
+.box-section .box-one .contact-us {
+  /* margin-top: 20%; */
+  color: orange;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+}
+.box-section .box-two {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px;
+  border-radius: 16px;
+}
+.box-section .box-two .sub-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-section .box-two .sub-box .common-box {
+  display: flex;
+  gap: 10px;
+}
+.box-section .box-two .sub-box p {
+  background-color: rgb(255, 255, 255);
+  padding: 4px 10px;
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 50px;
+  text-align: center;
+  width: fit-content;
+  color: #022d33;
+}
+.box-section .box-two .man-members {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.box-section .box-two .man-members .man-box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+.box-section .box-two .man-members .man-box h2 {
+  color: #022d33;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 7px;
+}
+.box-section .box-two .man-members .man-box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+.box-section .box-two .man-members .member-box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+.box-section .box-two .man-members .member-box h2 {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: #022d33;
+  margin-top: 10%;
+}
+.box-section .box-two .man-members .member-box .fa-user {
+  background-color: #022d33;
+  padding: 30px 22px;
+  color: white;
+  border-radius: 10px;
+}
+/* Box Section End */
