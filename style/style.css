@@ -1,4 +1,5 @@
 /* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Atkinson Hyperlegible Mono", serif;
   background-color: #f4f4f4;
   max-width: 1200px;
   margin-inline: auto;
@@ -165,7 +166,7 @@ body {
 .title {
   font-size: 3rem;
   color: #022d33;
-  font-family: sans-serif;
+  font-family: "Atkinson Hyperlegible Mono", serif;
   font-weight: 800;
   text-align: center;
   margin-bottom: 20px;
@@ -292,14 +293,15 @@ body {
 
 /* Slider Section Start */
 .slider-sec {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   background: #022d33;
   padding: 30px 10px;
   border-radius: 10px;
 }
 .recent-work {
   color: white;
-  font-family: sans-serif;
+  font-family: "Atkinson Hyperlegible Mono", serif;
+  font-size: 2.3rem;
   font-weight: 900;
 }
 
@@ -342,5 +344,67 @@ body {
 .according-sec {
   display: flex;
   gap: 20px;
+  margin-bottom: 5%;
+}
+.have {
+  color: #022d33;
+  font-weight: 400;
+}
+.frequently {
+  color: #022d33;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.faq-btn {
+  margin-top: 4%;
+  background: #022d33;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+}
+.according-sec .FAQ {
+  width: 40%;
+}
+.according-sec .according-box {
+  width: 60%;
+}
+.according-box {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.according-box .according-content {
+  padding: 3px 12px;
+  background: #f6f7f9;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.according-box .according-content header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.according-box .according-content span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #faa37c;
+  margin-bottom: 8px;
+}
+.according-box .according-content .fa-angle-down {
+  cursor: pointer;
+}
+.according-content .according-des {
+  height: 0;
+  font-size: 12px;
+  font-weight: 400;
+  /* padding: 0 15px; */
+  color: rgb(93, 90, 90);
+  /* overflow: hidden; */
+  transition: all 0.3s ease-in-out;
 }
 /* According Section End */
