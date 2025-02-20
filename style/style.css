@@ -76,7 +76,7 @@ body {
     top: 0px;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     height: 100vh;
     background: #022d33;
     color: white;
@@ -95,26 +95,22 @@ body {
     right: 0;
   }
 
-  /* Close Button */
   .qanci-close {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+  }
+  .qanci-close > div {
+    flex: 1;
   }
   .close-btn {
-    border: none;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
     background: #183f44;
+    color: white;
+    border: none;
     padding: 12px 20px;
     border-radius: 50px;
-  }
-  .logo-close {
-    margin-bottom: 20%;
-    right: 15px;
-    color: #c2c1c1;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* Menu List */
@@ -126,7 +122,6 @@ body {
 
   .mobile-menu ul li {
     margin: 15px 0;
-    width: 100%;
   }
 
   .mobile-menu ul li a {
@@ -215,25 +210,22 @@ body {
     right: 0;
   }
 
-  /* Close Button */
+  .qanci-close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130%;
+  }
+  .qanci-close > div {
+    flex: 1;
+  }
   .close-btn {
-    position: absolute;
-    top: 35px;
-    right: 15px;
-    background: none;
-    border: none;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
     background: #183f44;
+    color: white;
+    border: none;
     padding: 12px 20px;
     border-radius: 50px;
-  }
-  .logo-close {
-    margin-bottom: 20%;
-    right: 15px;
-    color: #c2c1c1;
-    font-weight: 800;
+    font-weight: 700;
   }
 
   /* Menu List */
