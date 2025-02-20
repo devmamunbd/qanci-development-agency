@@ -96,11 +96,12 @@ body {
   }
 
   /* Close Button */
+  .qanci-close {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .close-btn {
-    position: absolute;
-    top: 35px;
-    right: 15px;
-    background: none;
     border: none;
     font-size: 18px;
     color: white;
@@ -570,7 +571,7 @@ body {
     max-width: 740px;
   }
   .home-section {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .title {
     font-size: 2.2rem;
@@ -587,7 +588,7 @@ body {
     max-width: 1010px;
   }
   .home-section {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .title {
     font-size: 3rem;
@@ -604,7 +605,7 @@ body {
     max-width: 1220px;
   }
   .home-section {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .title {
     font-size: 3rem;
