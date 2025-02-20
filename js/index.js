@@ -66,3 +66,37 @@ function removeOpen(index1) {
     }
   });
 }
+
+// navbar
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeBtn = document.getElementById("close-btn");
+  const menuBtn = document.getElementById("menu-btn");
+
+  if (!mobileMenu || !closeBtn || !menuBtn) {
+    console.error("One or more elements are missing in the HTML!");
+    return;
+  }
+
+  // Open menu
+  menuBtn.addEventListener("click", function () {
+    mobileMenu.classList.add("active");
+    menuBtn.style.display = "none";
+  });
+
+  // Close menu
+  closeBtn.addEventListener("click", function () {
+    mobileMenu.classList.remove("active");
+    menuBtn.style.display = "flex";
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener("click", function (event) {
+    if (
+      !mobileMenu.contains(event.target) &&
+      !event.target.closest("#menu-btn")
+    ) {
+      mobileMenu.classList.remove("active");
+    }
+  });
+});
