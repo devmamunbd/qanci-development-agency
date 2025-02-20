@@ -24,12 +24,13 @@
 # Project Structure
 
 Qanci-Development-Agency/
-│index.html
-│styles.css
-│script.js
-│assets/
-│ │ images/
-│ │-icons/
-│-- README.md
+
+- index.html
+- styles.css
+- script.js
+- assets/
+  - images/
+  - icons/
+- README.md
 
 ## Developed with ❤️ by Qanci Development Agency.
